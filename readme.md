@@ -40,3 +40,10 @@ This code is submitted as supplementary material for peer review only.
 Copyright © 2026 The authors. Sun Yat-sen University (SYSU). All rights reserved.
 No public license is granted at this stage.
 The code will be released publicly after paper acceptance.
+
+
+## License
+
+The cuMAYO project is released under the Apache License 2.0. See the `LICENSE` file for details.
+
+The CUDA implementation of FIPS202 includes code adapted from third-party MIT-licensed code. The original copyright and MIT License notices are retained in the corresponding source files.
