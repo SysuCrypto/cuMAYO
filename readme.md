@@ -1,4 +1,4 @@
-# MAYO-GPU
+# cuMAYO
 
 ## Description
 
@@ -36,14 +36,32 @@ cd tests
 
 The current CMake configuration builds benchmark binaries for `MAYO_1`, `MAYO_2`, `MAYO_3`, and `MAYO_5`.
 
-This code is submitted as supplementary material for peer review only.
-Copyright © 2026 The authors. Sun Yat-sen University (SYSU). All rights reserved.
-No public license is granted at this stage.
-The code will be released publicly after paper acceptance.
-
-
 ## License
 
 The cuMAYO project is released under the Apache License 2.0. See the `LICENSE` file for details.
 
 The CUDA implementation of FIPS202 includes code adapted from third-party MIT-licensed code. The original copyright and MIT License notices are retained in the corresponding source files.
+
+## How to Cite
+
+If you use cuMAYO in your work, please cite the following paper:
+
+Chen, H., Huang, J., Jin, S., Cheung, R. C. C., Chen, D., & Dai, W. (2026). High-Throughput GPU Design and Implementation of MAYO with Matrix Computation Reordering. *IACR Transactions on Cryptographic Hardware and Embedded Systems*, *2026*(4), 496–521. [https://doi.org/10.46586/tches.v2026.i4.496-521](https://doi.org/10.46586/tches.v2026.i4.496-521)
+
+```bibtex
+@article{chen2026highthroughput,
+  author  = {Haoyang Chen and
+             Junhao Huang and
+             Shutong Jin and
+             Ray C. C. Cheung and
+             Donglong Chen and
+             Wangchen Dai},
+  title   = {High-Throughput GPU Design and Implementation of {MAYO} with Matrix Computation Reordering},
+  journal = {IACR Transactions on Cryptographic Hardware and Embedded Systems},
+  volume  = {2026},
+  number  = {4},
+  pages   = {496--521},
+  year    = {2026},
+  doi     = {10.46586/tches.v2026.i4.496-521}
+}
+```
